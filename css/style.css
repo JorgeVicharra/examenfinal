@@ -1,0 +1,65 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* common styles */
+
+.common-buttons {
+    background-color: #91AB2B;
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+.parrafo-1 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.header_banner_color {
+    background-color: #ecc660;
+}
+
+.banner-title-color {
+    color: #ecc660;
+}
+
+.img-background-color {
+    background-color: #F1F1F1;
+}
+
+.section-height {
+    min-height: 100%;
+}
+
+.cloth-section-text-color {
+    color: #FABE4C;
+}
+
+.contact-logo {
+    width: 78px;
+    height: 82px;
+}
+
+@media only screen and (min-width:1024px) and (max-width:1280px) {
+    .cloth-section-mq {
+        min-width: 100%;
+    }
+    .card-size {
+        max-width: 100%;
+    }
+}
+
+
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+ */
