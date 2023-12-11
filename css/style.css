@@ -1,8 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
-
-
 /* common styles */
 
 .common-buttons {
@@ -14,12 +12,26 @@ body {
     border: none;
 }
 
+h2 {
+    background: rgb(51,67,54);
+    background: linear-gradient(0deg, rgba(51,67,54,1) 0%, rgba(205,159,56,1) 100%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;    
+}
+
+.slider-text {
+    background: rgb(51,67,54);
+    background: linear-gradient(0deg, rgba(51,67,54,1) 0%, rgba(205,159,56,1) 100%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;    
+}
+
 body,
 html {
     overflow-x: hidden;
 }
 
-.parrafo-1 {
+#parrafo-1 {
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -28,11 +40,12 @@ html {
 }
 
 .banner-title-color {
-    color: #ecc660;
+    color: #000000;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .img-background-color {
-    background-color: #F1F1F1;
+    background-color: #eec660;
 }
 
 .section-height {
@@ -46,6 +59,17 @@ html {
 .contact-logo {
     width: 78px;
     height: 82px;
+}
+
+#carouselExampleCaptions {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 20px;
+    display: flex;
+}
+
+.slide img {
+    height: auto;
 }
 
 @media only screen and (min-width:1024px) and (max-width:1280px) {
