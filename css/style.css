@@ -1,8 +1,16 @@
-body {
-    font-family: 'Montserrat', sans-serif;
-}
 /* common styles */
+nav {
+    background-color: #cd9f38;
+}
 
+#carrito {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-content: stretch;
+    align-items: center;
+    flex-wrap: wrap;
+}
 .common-buttons {
     background-color: #91AB2B;
     width: 170px;
@@ -29,6 +37,8 @@ h2 {
 body,
 html {
     overflow-x: hidden;
+    background-color: #b6d7a8;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #parrafo-1 {
@@ -70,6 +80,11 @@ html {
 
 .slide img {
     height: auto;
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px;
 }
 
 @media only screen and (min-width:1024px) and (max-width:1280px) {
