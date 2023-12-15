@@ -3,14 +3,6 @@ nav {
     background-color: #cd9f38;
 }
 
-#carrito {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-content: stretch;
-    align-items: center;
-    flex-wrap: wrap;
-}
 .common-buttons {
     background-color: #91AB2B;
     width: 170px;
@@ -20,22 +12,7 @@ nav {
     border: none;
 }
 
-h2 {
-    background: rgb(51,67,54);
-    background: linear-gradient(0deg, rgba(51,67,54,1) 0%, rgba(205,159,56,1) 100%);
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3.5rem;    
-}
-
-.slider-text {
-    background: rgb(51,67,54);
-    background: linear-gradient(0deg, rgba(51,67,54,1) 0%, rgba(205,159,56,1) 100%);
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;    
-}
-
-body,
-html {
+body {
     overflow-x: hidden;
     background-color: #b6d7a8;
     font-family: 'Montserrat', sans-serif;
@@ -53,42 +30,26 @@ html {
     color: #000000;
     font-family: 'Ubuntu', sans-serif;
 }
-
+/*
 .img-background-color {
     background-color: #eec660;
-}
+} */
 
 .section-height {
     min-height: 100%;
 }
 
 .cloth-section-text-color {
-    color: #FABE4C;
-}
-
-.contact-logo {
-    width: 78px;
-    height: 82px;
-}
-
-#carouselExampleCaptions {
-    margin-top: 20px;
-    margin-bottom: 0px;
-    padding: 20px;
-    display: flex;
-}
-
-.slide img {
-    height: auto;
+    color: #cd9f38;
 }
 
 a {
     text-decoration: none;
     font-size: 14px;
-}
+} 
 
 @media only screen and (min-width:1024px) and (max-width:1280px) {
-    .cloth-section-mq {
+    .sec-testimonios {
         min-width: 100%;
     }
     .card-size {
