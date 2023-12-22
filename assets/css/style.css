@@ -15,6 +15,13 @@ nav, header {
     -moz-box-shadow: 0px 0px 18px -1px rgba(194, 153, 21, 0.81);
 }
 
+#boton-custom {    
+    font-size: 30px;
+}
+
+.icono-custom {
+    font-size: 60px;
+}
 body {
     overflow-x: hidden;
     background-color: #b6d7a8;
@@ -48,8 +55,9 @@ body {
 
 a, span, button{
     text-decoration: none;
-    font-size: 14px;
-} 
+    font-size: 14px;    
+}
+
 
 @media only screen and (min-width:1024px) and (max-width:1280px) {
     .sec-testimonios {
